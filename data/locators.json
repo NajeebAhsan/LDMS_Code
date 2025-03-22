@@ -1,0 +1,22 @@
+{
+    "citizenshipSelection": {
+      "lawyerBtn": "//button[normalize-space()='Lawyer']",
+      "citizenshipDropdown": "//select[@id='citizenship']"
+    },
+    "signUp": {
+      "cnic": "//input[@id='cnic']",
+      "firstName": "#firstName",
+      "lastName": "#lastName",
+      "fatherName": "#fatherName",
+      "email": "#email",
+      "password": "#password",
+      "confirmPassword": "#confirmPassword",
+      "barCouncilRegNo": "#BarCouncilRegNo",
+      "getCodeBtn": "text=Get Code",
+      "otpField": "//input[@class='disabled:cursor-not-allowed']",
+      "submitBtn": "button[type='submit']",
+      "captchaImage": "img.captcha-class",
+      "captchaField": "[placeholder='Enter the Code']"
+    }
+  }
+  

@@ -10,8 +10,8 @@ import { CaseType } from '../pages/case_type.page';
 import { CaseDetails } from '../pages/detail_case.page';
 import { UploadDocuments } from '../pages/upload_documents.page';
 
-test.skip('User is able to initiate a Case', async ({ page }) => {
-    
+test('User is able to initiate a Case', async ({ page }) => {
+
     const signInForm = new SignInForm(page);
     await signInForm.gotoLogin_Url();
 
@@ -60,7 +60,9 @@ test.skip('User is able to initiate a Case', async ({ page }) => {
         formsdata.respondentInformation.CNIC,
         formsdata.respondentInformation.Email,
         formsdata.respondentInformation.Phone
+
     );
+
     console.log("Respondent Data:", formsdata.respondentInformation);
 
     await page.waitForTimeout(3000);
@@ -83,10 +85,10 @@ test.skip('User is able to initiate a Case', async ({ page }) => {
     const filePaths = Array.isArray(formsdata.documents.filePath) 
         ? formsdata.documents.filePath 
         : [formsdata.documents.filePath];
-    
+
     await documents.uploadAllDocuments(filePaths);
     await documents.previewSubmission();
     console.log("Respondent Data:", formsdata.respondentInformation);
     await page.pause();
-    
+
 });

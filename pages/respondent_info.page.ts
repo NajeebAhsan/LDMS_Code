@@ -15,6 +15,7 @@ export class RespondentInfo{
     readonly cnicInput: Locator;
     readonly emailInput: Locator;
     readonly phoneInput: Locator;
+    readonly savebtn: Locator;
     readonly nextbtn: Locator;
 
     constructor(page: Page) {
@@ -31,6 +32,7 @@ export class RespondentInfo{
         this.cnicInput = page.locator("#cnic");
         this.emailInput = page.locator("#email");
         this.phoneInput = page.locator("#phone");
+        this.savebtn = page.locator("//button[@type='submit']");
         this.nextbtn = page.locator("//button[normalize-space()='Next']");
     }
 
@@ -46,6 +48,7 @@ export class RespondentInfo{
         await this.cnicInput.fill(cnic);
         await this.emailInput.fill(email);
         await this.phoneInput.fill(phone);
+        await this.savebtn.click()
         await this.nextbtn.click();
     }
 }

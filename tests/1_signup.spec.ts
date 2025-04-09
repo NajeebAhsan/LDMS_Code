@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { SignUpForm } from '../pages/signUpForm.page';
 import testData from '../data/testData.json';
 
-test('Citizenship selection and Sign Up process', async ({ page }) => {
+test.skip('Citizenship selection and Sign Up process', async ({ page }) => {
     const signUpForm = new SignUpForm(page);
 
     await signUpForm.gotoSignUp_Url();

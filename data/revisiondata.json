@@ -1,0 +1,27 @@
+{
+    "fetchRevision":{
+        "CaseId":"25FSD363650036A",
+        "Revision": "Land issue not resolved",
+        "Ground": "Land issue not resolved",
+        "Prayer": "Land issue not resolved"
+    },
+    "appellantInformation":{
+        "FirstName": "Waseem",
+        "LastName": "Ahmad",
+        "FatherName": "Ahmad",
+        "Cnic": "33301-3492485-6",
+        "Email": "ahmad21@gmail.com",
+        "Phone": "03215492167"
+    },
+    "revisionSubject":{
+        "subject": "Case was not handled successfully"
+    },
+    "stateDefendant":{
+        "stDefedant": "DC",
+        "DefInfo": "Ahsan Khan"
+    },
+    "additionalDocument":{
+        "FieldName": "FardID",
+        "docPath": "C:\\Users\\Najeeb.Khan\\Downloads\\Front.png"
+    }
+}

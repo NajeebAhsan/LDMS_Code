@@ -53,7 +53,7 @@ export class SignUpForm {
     }
 
     async gotoSignUp_Url() {
-        await this.page.goto('http://103.167.163.69/role');
+        await this.page.goto('/role');
     }
 
     async gotoCitizenshipPage(){

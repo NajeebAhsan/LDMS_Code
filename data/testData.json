@@ -1,12 +1,14 @@
 {
-  "CNIC": "1234-56789012-3",
-  "FirstName": "John",
-  "LastName": "Doe",
-  "FatherName": "Michael Doe",
-  "Email": "john.doe@email.com",
+  "CNIC": "35201-36788012-3",
+  "FirstName": "Ahmad",
+  "LastName": "Khan",
+  "FatherName": "Waqas Ali",
+  "Email": "admin@gmail.com",
   "Password": "Password@123",
   "ConfirmPassword": "Password@123",
-  "BarCouncilNumber": "BCN-12345",
-  "PhoneNumber": "0324-4536739",
-  "otpcode": "123456"
+  "BarCouncilNumber": "BCN-22335",
+  "PhoneNumber": "0314-2236939",
+  "otpcode": "123456",
+  "cap": "cApTcHa",
+  "Otp": "123456"
 }

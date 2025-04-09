@@ -5,12 +5,17 @@ import testData from '../data/testData.json';
 test.skip('User should be able to sign in successfully', async ({ page }) => {
     
     const signInForm = new SignInForm(page);
-    // Step 1: Navigate to Login Page
+    // Navigate to Login Page
     await signInForm.gotoLogin_Url();
 
     await signInForm.login(testData.Email, testData.Password);
-    // await signInForm.selectLanguage();
-    // await signInForm.navigateToInitiateCase();
-    // await signInForm.clickInitiateNewCase();
-    // await signInForm.verifyNoReLoginRequired();
+    await signInForm.captcha(testData.cap, testData.Otp);
+    await page.waitForTimeout(5000);
+
+    await page.waitForURL('http://103.167.163.69/dashboard');
+    await expect(page).toHaveURL('http://103.167.163.69/dashboard');
+
+    console.log('Login successful, URL verified!');
+    await signInForm.selectLanguage();
 });
+

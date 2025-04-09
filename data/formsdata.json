@@ -1,0 +1,44 @@
+{
+    "petitionerInformation": {
+      "Firstname": "Ahmad",
+      "LastName": "Khan",
+      "FatherName": "Ali Khan",
+      "CNIC": "35221-3672839-3",
+      "Email": "ahmad22@gmail.com",
+      "Phone": "0322-3472817"
+    },
+    "suitProperty": {
+      "Division": "Faisalabad",
+      "District": "T.T Singh",
+      "Tehsil": "T.T Singh",
+      "Mauza": "Alowal Chak No. 477 JB",
+      "Khewat":"256",
+      "Parcel":"456"
+    },
+    "respondentInformation": {
+      "StateRespondent": "DC",
+      "FirstName": "Waqas",
+      "LastName": "Ali",
+      "FatherName": "Dastgir Khan",
+      "CNIC": "33321-5647803-8",
+      "Email":"waqas11@gmail.com",
+      "Phone":"0322-3474443"
+    },
+    "caseType": {
+      "type": "Demarcation",
+      "subType": "Land Dispute isue"
+    },
+    "detailOfTheCase": {
+      "Plaint": "Dispute over land ownership.",
+      "Ground": "Dispute over land ownership.",
+      "Prayer": "Dispute over land ownership.",
+      "Misccellanous": "Dispute over land ownership."
+    },
+    "documents": {
+      "filePath": "C:\\Users\\Najeeb.Khan\\Downloads\\Back1.png"
+    },
+    "preview": {
+      "confirm": "Yes"
+    }
+  }
+  

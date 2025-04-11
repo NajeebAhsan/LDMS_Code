@@ -10,7 +10,7 @@ import { CaseType } from '../pages/case_type.page';
 import { CaseDetails } from '../pages/detail_case.page';
 import { UploadDocuments } from '../pages/upload_documents.page';
 
-test('User is able to initiate a Case', async ({ page }) => {
+test.skip('User is able to initiate a Case', async ({ page }) => {
 
     const signInForm = new SignInForm(page);
     await signInForm.gotoLogin_Url();

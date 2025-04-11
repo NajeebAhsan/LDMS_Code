@@ -4,5 +4,25 @@
         "Appeal": "Land issue not resolved",
         "Ground": "Land issue not resolved",
         "Prayer": "Land issue not resolved"
+    },
+
+    "appellantInfo":{
+        "FirstName": "Faraz",
+        "LastName": "Ahmad",
+        "FatherName": "Ali Ahmad",
+        "Cnic": "33301-4357828-4",
+        "Email": "user21@gmail.com",
+        "Phone": "0321-3452803"
+    },
+    "appealSubject":{
+        "subject": "Case was not handled successfully"
+    },
+    "stateDefendant":{
+        "stDefedant": "DC",
+        "DefInfo": "Waqas Ahsan"
+    },
+    "additionalDocument":{
+        "FieldName": "FardID",
+        "docPath": "C:\\Users\\Najeeb.Khan\\Downloads\\Front.png"
     }
 }
